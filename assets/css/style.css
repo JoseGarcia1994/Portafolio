@@ -576,11 +576,14 @@ img {
   }
 
   .home__image {
-    background-color: #777;
     width: clamp(min(375px, 100%), 48vh, 500px);
     grid-column: 2 / 3;
     grid-row: 1 / 4;
-    transform: translateY(.5rem);
+    transform: translateY(0.5rem);
+  }
+
+  .home__image img {
+    transform: translateX(0.5rem);
   }
 
   .home__social {
