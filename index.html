@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,100;1,200&display=swap"
+    rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <title>Portafolio</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <nav class="navbar grid--container">
+      <div id="nav" class="navbar__menu">
+        <a href="#close"><i class='bx bx-x btn__close navbar__icono'></i></a>
+        <ul class="navbar__list">
+          <li class="navbar__item"><a class="navbar__link" href="#home"><i class='bx bxs-home'></i>Home</a></li>
+          <li class="navbar__item"><a class="navbar__link" href="#about"><i class='bx bxl-meta'></i>About</a></li>
+          <li class="navbar__item"><a class="navbar__link" href="#projects"><i class='bx bxs-rocket'></i>Portafolio</a>
+          </li>
+          <li class="navbar__item"><a class="navbar__link" href="#contact"><i class='bx bxs-envelope'></i>Contact</a>
+          </li>
+        </ul>
+      </div>
+      <a href="#nav"><i class='bx bx-menu btn__open navbar__icon'></i></a>
+    </nav>
+  </header>
+  <main>
+    <!--HOME-->
+    <section id="home" class="home">
+      <div class="home__container grid--container">
+        <div class="home_info">
+          <h1 class="home__title">Web Developer</h1>
+          <p class="home__description">I am a Web Developer with a passion for Technology and Programming.</p>
+        </div>
+        <ul class="home__social">
+          <li class="home__social-item"><a href="https://www.linkedin.com/in/jose-eduardo-garcia-colin" target="_blank"
+              class="home__social-link"><i class='bx bxl-linkedin-square'></i></a></li>
+          <li class="home__social-item"><a href="https://www.instagram.com/jegc3c/" target="_blank"
+              class="home__social-link"><i class='bx bxl-instagram-alt'></i></a></li>
+          <li class="home__social-item"><a href="https://www.facebook.com/profile.php?id=100032716093170"
+              target="_blank" class="home__social-link"><i class='bx bxl-facebook-square'></i></a></li>
+        </ul>
+        <div class="home__image">
+          <span></span>
+          <img src="assets/img/Jose_Garcia-.png" alt="My Photo">
+        </div>
+      </div>
+      <div class="home__button">
+        <button class="btn btn--primary btn__home" type="button">Download CV</button>
+      </div>
+    </section>
+
+    <!--About Section-->
+    <section id="about" class="about section">
+      <h2 class="section__title">About Me</h2>
+      <div class="about__container grid--container">
+        <p class="about__description">
+          I am a web developer with a passion on technology and programing, ready to work with the following technologies
+          and willing to learn any other technology and with the ability to work under pressure. My goal is to be able
+          to work with you on any projects.
+        </p>
+        <div class="about__skills grid--container">
+          <div class="about__cards">
+            <!-- Card 1 -->
+            <div class="about__card" data-aos="zoom-out-right" data-aos-duration="2000">
+              <i class='bx bxl-html5'></i>
+              <h3 class="about__card-title">HTML5</h3>
+              <p>Are you looking for a developer? I am your best choice</p>
+            </div>
+            <!-- Card 2 -->
+            <div class="about__card" data-aos="zoom-out-right" data-aos-duration="2000">
+              <i class='bx bxl-css3'></i>
+              <h3 class="about__card-title">CSS3</h3>
+              <p>I am a fast learner</p>
+            </div>
+            <!-- Card 3 -->
+            <div class="about__card" data-aos="zoom-out-right" data-aos-duration="2000">
+              <i class='bx bxl-javascript'></i>
+              <h3 class="about__card-title">JavaScript</h3>
+              <p>I love Technology</p>
+            </div>
+          </div>
+          <div class="about__tags">
+            <h3 class="about__tags-title">Skills</h3>
+            <div class="about__tags-container">
+              <span class="about__tag" data-aos="zoom-in-right" data-aos-duration="2000">Responsable</span>
+              <span class="about__tag" data-aos="zoom-in-right" data-aos-duration="2200">Teamwork</span>
+              <span class="about__tag" data-aos="zoom-in-right" data-aos-duration="2400">Creative</span>
+              <span class="about__tag" data-aos="zoom-in-right" data-aos-duration="2600">Punctual</span>
+              <span class="about__tag" data-aos="zoom-in-right" data-aos-duration="2800">Proactive</span>
+              <span class="about__tag" data-aos="zoom-in-right" data-aos-duration="3000">Autodidact</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Projects-->
+    <section id="projects" class="projects section">
+      <h2 class="section__title">Proyects</h2>
+      <div class="projects__container grid--container">
+        <!--Proyect 1-->
+        <div class="projects__project">
+          <div class="projects__inner grid--container">
+            <div class="projects__info" data-aos="fade-up-left" data-aos-duration="2000">
+              <h3 class="projects__name">Project 1</h3>
+            </div>
+            <div class="projects__image"  data-aos="fade-up-right" data-aos-duration="1000">
+              <img src="assets/img/project1.jpg" alt="project1">
+            </div>
+          </div>
+        </div>
+        <!--Project 2-->
+        <div class="projects__project">
+          <div class="projects__inner grid--container">
+            <div class="projects__info" data-aos="fade-up-right" data-aos-duration="2000">
+              <h3 class="projects__name">Project 2</h3>
+            </div>
+            <div class="projects__image" data-aos="fade-up-left" data-aos-duration="1000">
+              <img src="assets/img/project2.png" alt="project2">
+            </div>
+          </div>
+        </div>
+        <!--Project 3-->
+        <div class="projects__project">
+          <div class="projects__inner grid--container">
+            <div class="projects__info" data-aos="fade-up-left" data-aos-duration="2000">
+              <h3 class="projects__name">Project 3</h3>
+            </div>
+            <div class="projects__image" data-aos="fade-up-right" data-aos-duration="1000">
+              <img src="assets/img/project3.jpg" alt="project3">
+            </div>
+          </div>
+        </div>
+        <!------------ Project 4 ------------>
+        <div class="projects__project">
+          <div class="projects__inner grid--container">
+            <div class="projects__info" data-aos="fade-up-right" data-aos-duration="2000">
+              <h3 class="projects__name">Project 4</h3>
+            </div>
+            <div class="projects__image" data-aos="fade-up-left" data-aos-duration="1000">
+              <img src="assets/img/project4.png" alt="project4">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Contact-->
+    <section id="contact" class="contact section">
+      <h2 class="section__title">Contact</h2>
+      <div class="contact__container grid--container">
+        <div class="contact__info">
+          <address class="contact__info-data">
+            
+            <div class="contact__info-container">
+              <div class="contact__info-icon">
+                <i class='bx bxs-phone'></i>  
+              </div>
+              <div class="contact__info-phone">
+                <a href="tel:+13329686053">+52 332 968 6053</a>
+              </div>    
+            </div>
+            
+            <div class="contact__info-container">
+              <div class="contact__info-icon">
+                <i class='bx bxs-envelope'></i>
+              </div>
+              <div class="contact__info-email">
+                <a id="mail" href="mailto:garciacolin@hotmail.com">garciacolin@hotmail.com</a>
+              </div>
+            </div>
+            
+          </address>
+        </div>
+        <div class="contact__form">
+          <h3 class="contact__form-title">Send Messsage</h3>
+
+          <form id="form" class="Contact__form-container">
+            <div class="contact__form-group">
+              <label for="name" class="contact__form-label">Name</label>
+              <input type="text" id="name" name="name" class="contact__form-input" placeholder="Full Name" required>
+            </div>
+            <div class="contact__form-group">
+              <label for="subject" class="contact__form-label">Subject</label>
+              <input type="text" id="subject" name="subject" class="contact__form-input" placeholder="Subject" required>
+            </div>
+            <div class="contact__form-group">
+              <label for="message" class="contact__form-label">Message</label>
+              <textarea name="message" id="message" cols="30" rows="10" class="contact__form-input resize"
+                placeholder="Write message..."></textarea>
+            </div>
+            <button type="submit" class="btn contact__form-button">Send</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__container grid--container">
+      <div class="footer__info">
+        <h3 class="footer__title">Jose Garcia</h3>
+        <p class="footer__description">I am a Web Developer with a passion for Technology and Programming</p>
+      </div>
+      <div class="footer__social">
+        <h3 class="footer__title footer__social-title">Social Media</h3>
+        <ul class="footer__social-list">
+          <li class="footer__social-item">
+            <a href="https://www.facebook.com/profile.php?id=100032716093170" target="_blank"
+              class="footer__social-link"><i class='bx bxl-facebook-square'></i></a>
+          </li>
+          <li class="footer__social-item">
+            <a href="#" class="footer__social-link"><i class='bx bxl-instagram-alt'></i></a>
+          </li>
+          <li class="footer__social-item">
+            <a href="#" class="footer__social-link"><i class='bx bxl-twitter'></i></a>
+          </li>
+          <li class="footer__social-item">
+            <a href="https://www.linkedin.com/in/jose-eduardo-garcia-colin" target="_blank"
+              class="footer__social-link"><i class='bx bxl-linkedin-square'></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <p class="footer__copy">&copy; 2023, All rights reserved</p>
+  </footer>
+
+  <!------------ JS ------------>
+  <script src="assets/js/main.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
